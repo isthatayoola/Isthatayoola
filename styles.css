@@ -1,0 +1,76 @@
+
+.gradient-text{
+    background: linear-gradient( 300deg, #faa2a2 50%, #91C8E4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body::before{
+    background-color: black;
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+body{
+    background-color: black;
+    font-family: Montserrat; 
+}
+
+@media(min-width: 768px) {
+    .news-input {
+        width:50%;
+    }
+}
+
+.w-75{
+    background-color: #454545;
+    border-radius: 15px;
+}
+
+.hire-me{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+}
+
+.colorr{
+    background-color: black;
+}
+
+    
+.card-img-1{
+    border-radius: 40px;
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.card-img-2{
+    border-radius: 40px;
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.contact-content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.contact-text{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.social i{
+display: inline-block;
+font-size: 32px;
+margin: 0 20px;
+transition: all, .50s ease;
+}
